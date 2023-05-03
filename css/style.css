@@ -78,10 +78,15 @@ body {
 
 
 .business-section {
-
     padding-top: 80px;
     background-color: orange;
 }
+
+.partnership-section {
+    padding-top: 80px;
+    background-color: royalblue;
+}
+
 
 /* Header*/
 
