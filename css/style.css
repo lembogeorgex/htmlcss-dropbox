@@ -165,21 +165,3 @@ header {
 }
 
 /* Label Section */
-.label-section {
-    width: 1200px;
-}
-
-.label∏ {
-    height: 50px;
-    width: 10%;
-    background-color: yellow;
-    border: 1px dashed black;
-
-}
-
-.label-max {
-    border: 1px dashed black;
-    height: 50px;
-    width: 20%;
-    background-color: red;
-}
