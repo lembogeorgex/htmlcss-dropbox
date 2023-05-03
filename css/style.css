@@ -6,11 +6,6 @@
     box-sizing: border-box;
 }
 
-/* Generics */
-
-body {
-    font-style: 'Open Sans', sans-serif
-}
 
 /* Color Palette
 btn-blue: rgb(1,96,255)
@@ -25,3 +20,43 @@ lonely: rgb(14,35,129)
 hearst: rgb(179,208,231)
 clear:rgb(255,215,47)
 */
+
+/* Generics */
+
+body {
+    font-style: 'Open Sans', sans-serif
+}
+
+/* Utilities */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* # REMOVE */
+
+.logo,
+.nav,
+.right-nav {
+    border: 1px dashed red;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+
+
+/* Header*/
+
+header {
+    background-color: rosybrown;
+    gap: 20px;
+}
+
+.right-nav {
+    align-self: flex-end;
+}
