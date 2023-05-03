@@ -27,6 +27,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* Utilities */
 
 .container {
@@ -80,7 +81,14 @@ body {
 /* Header*/
 
 header {
+    background-color: #fff;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 /* Jumbotron section
@@ -88,6 +96,5 @@ header {
 
 .jumbotron {
     padding-top: 50px;
-    height: 300px;
     background-color: rgb(179, 208, 231);
 }
