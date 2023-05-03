@@ -157,3 +157,9 @@ header {
     background-color: navajowhite;
     border: 1px dashed black;
 }
+
+/* Credits Section */
+
+.credits {
+    padding-top: 80px;
+}
