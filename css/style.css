@@ -51,10 +51,6 @@ body {
 
 /* Section Settings */
 
-.section {
-    padding: 100px;
-}
-
 .aside-text {
     height: 100px;
     width: 30%;
@@ -81,10 +77,16 @@ body {
 }
 
 
+.business-section {
+
+    padding-top: 80px;
+    background-color: orange;
+}
+
 /* Header*/
 
 header {
-    background-color: #fff;
+    background-color: cyan;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -98,7 +100,7 @@ header {
  */
 .jumbotron {
     padding-top: 50px;
-    background-color: rgb(179, 208, 231);
+    background-color: yellowgreen;
     position: relative;
 }
 
