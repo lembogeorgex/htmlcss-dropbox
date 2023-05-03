@@ -139,3 +139,21 @@ header {
     background-color: rebeccapurple;
     border: 1px dashed black;
 }
+
+/* Plan Section */
+
+
+.plan-section {
+    background-color: darksalmon;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    background-color: navajowhite;
+    border: 1px dashed black;
+}
