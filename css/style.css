@@ -166,13 +166,18 @@ header {
 
 /* Label Section */
 
+
+.label-section {
+    height: 300px;
+}
+
 .small-label {
     width: calc(100% / 2);
     flex-wrap: wrap;
 }
 
 .large-label {
-    width: 50%;
+    width: 100%;
 }
 
 .small-block {
@@ -181,9 +186,10 @@ header {
     border: 1px dashed black;
 }
 
+/* Gestire misure */
 .large-block {
-    width: 100%;
-    height: 100%;
+    width: 200%;
+    height: 200%;
     background-color: red;
     border: 1px dashed black;
 
