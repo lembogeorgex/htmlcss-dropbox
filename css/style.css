@@ -25,6 +25,7 @@ clear:rgb(255,215,47)
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
 }
 
 ul {
@@ -32,6 +33,9 @@ ul {
 }
 
 
+h1 {
+    font-size: 2.5rem;
+}
 
 /* Utilities */
 
@@ -50,26 +54,25 @@ ul {
     background-color: rgb(1, 96, 255);
     border: 1px solid transparent;
     color: white;
+    padding: 10px 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 
 .small-btn {
     padding: 5px 10px;
 }
 
+
 /* Section Settings */
 
 .aside-text {
-    height: 100px;
     width: 30%;
-    background-color: green;
     border: 1px dashed black;
 }
 
 .section-image {
-    height: 100px;
     width: 70%;
-    background-color: red;
     border: 1px dashed black;
 }
 
@@ -123,6 +126,7 @@ header {
     right: 0;
     z-index: 1;
     width: 100%;
+    font-weight: lighter;
 }
 
 
@@ -142,17 +146,31 @@ header {
     padding-right: 20px;
 }
 
+
 /* Jumbotron section
  */
 .jumbotron {
-    padding-top: 50px;
-    background-color: yellowgreen;
+    background-color: rgb(179, 208, 231);
+    padding-top: 100px;
+}
+
+.jumbo-header {
     position: relative;
 }
 
-.bottomize {
+.jumbo-header img {
+    max-width: 100%;
     position: relative;
-    bottom: -20px;
+    bottom: -80px;
+
+}
+
+.aside-header {
+    padding-top: 80px;
+}
+
+.fa-arrow-down {
+    margin-top: 150px;
 }
 
 /* Business Choices Section */
