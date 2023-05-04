@@ -165,3 +165,27 @@ header {
 }
 
 /* Label Section */
+
+.small-label {
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+.large-label {
+    width: 50%;
+}
+
+.small-block {
+    width: 25%;
+    height: 200px;
+    background-color: green;
+    border: 1px dashed black;
+}
+
+.large-block {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    border: 1px dashed black;
+
+}
