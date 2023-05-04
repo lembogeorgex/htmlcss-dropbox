@@ -166,31 +166,25 @@ header {
 
 /* Label Section */
 
-
-.label-section {
-    height: 300px;
+.small-section {
+    width: 50%;
 }
 
-.small-label {
+.large-section {
+    width: 50%;
+}
+
+.small-content {
     width: calc(100% / 2);
     flex-wrap: wrap;
+    height: 100px;
+    background-color: darkcyan;
+    border: 1px dashed black;
+
 }
 
-.large-label {
+.large-content {
     width: 100%;
-}
-
-.small-block {
-    width: 50%;
-    height: 100%;
+    height: 100px;
     border: 1px dashed black;
-}
-
-/* Gestire misure */
-.large-block {
-    width: 200%;
-    height: 200%;
-    background-color: red;
-    border: 1px dashed black;
-
 }
