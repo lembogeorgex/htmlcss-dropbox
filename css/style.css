@@ -167,7 +167,7 @@ header {
 /* Label Section */
 
 .small-label {
-    width: 25%;
+    width: calc(100% / 2);
     flex-wrap: wrap;
 }
 
