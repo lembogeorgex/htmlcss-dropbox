@@ -55,12 +55,14 @@ h1 {
     border: 1px solid transparent;
     color: white;
     padding: 10px 8px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
 
 .small-btn {
     padding: 5px 10px;
+    margin: 0;
 }
 
 
@@ -68,12 +70,12 @@ h1 {
 
 .aside-text {
     width: 30%;
-    border: 1px dashed black;
+
 }
 
 .section-image {
     width: 70%;
-    border: 1px dashed black;
+
 }
 
 .split-div {
@@ -95,8 +97,9 @@ h1 {
 
 
 .heading-text {
-    justify-content: center;
-    border: 1px dashed black;
+
+    padding-bottom: 20px;
+
 }
 
 .content {
@@ -106,7 +109,6 @@ h1 {
 
 .business-section {
     padding-top: 80px;
-    background-color: orange;
 }
 
 .partnership-section {
@@ -174,12 +176,40 @@ header {
 }
 
 /* Business Choices Section */
+
 .table-content {
     padding-top: 20px;
     padding-bottom: 20px;
     gap: 10px;
 }
 
+.billing {
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+
+
+.ring {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid black;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.thick-ring {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px solid blue;
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
 
 .table-card {
     width: calc(100% / 3 - 10px);
