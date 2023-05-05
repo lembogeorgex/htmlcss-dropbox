@@ -474,26 +474,11 @@ header {
 }
 
 
-.visible-btn,
-.hidden-btn {
-    cursor: pointer
+
+.symbl::before {
+    content: "\00b6"
 }
 
-.hidden-btn {
-    display: none;
-}
-
-.visible-btn:hover {
-    display: none;
-}
-
-.visible-btn:hover .hidden-btn {
-    display: block;
-}
-
-/* Main Footer */
-
-.main-footer {
-    padding-top: 80px;
-    background-color: khaki;
+.symbl:hover::before {
+    content: "\2304"
 }
