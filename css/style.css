@@ -105,6 +105,7 @@ h2 {
     min-height: 300px;
     border: 1px dashed black;
     gap: 20px;
+    position: relative;
 
 }
 
@@ -475,10 +476,28 @@ header {
 
 
 
-.symbl::before {
-    content: "\00b6"
+.symbl {
+    padding-left: 200px;
 }
 
+.symbl:hover {
+    cursor: pointer;
+}
+
+.symbl::before {
+    content: "\2304";
+    font-size: 35px;
+    ;
+}
+
+
 .symbl:hover::before {
-    content: "\2304"
+    content: "\2303";
+    font-size: 35px;
+
+}
+
+.symbl:hover::after {
+    content: "Lorem Ipsum dolor sit amet, consectetur adipisicing elit";
+    font-weight: lighter;
 }
