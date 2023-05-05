@@ -95,7 +95,6 @@ h2 {
 .split-div {
     width: calc(100% / 5);
     height: 300px;
-    background-color: aquamarine;
     border: 1px dashed black;
 
 }
@@ -181,7 +180,7 @@ header {
 .jumbo-header img {
     max-width: 100%;
     position: relative;
-    bottom: -80px;
+    bottom: -120px;
 
 }
 
@@ -363,6 +362,7 @@ header {
 /* section footer section */
 .footer-prop {
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* Label Section */
@@ -465,12 +465,13 @@ header {
 
 .faq {
     padding-top: 80px;
+    padding-bottom: 80px
 }
 
 .xl-separator {
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 100%px;
+    width: 100px;
     border: 1px solid gray;
 }
 
@@ -500,4 +501,32 @@ header {
 .symbl:hover::after {
     content: "Lorem Ipsum dolor sit amet, consectetur adipisicing elit";
     font-weight: lighter;
+}
+
+/* Main Footer */
+.main-footer {
+    min-height: 500px;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.split-div {
+    color: white;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.split-div h3 {
+    padding-bottom: 10px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+    ;
+}
+
+
+.language-selector {
+    color: gray;
 }
