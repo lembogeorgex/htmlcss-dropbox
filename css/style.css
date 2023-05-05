@@ -67,6 +67,15 @@ h1 {
 }
 
 
+.off-btn {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /* Section Settings */
 
 .aside-text {
@@ -76,7 +85,6 @@ h1 {
 
 .section-image {
     width: 70%;
-
 }
 
 .split-div {
@@ -114,7 +122,7 @@ h1 {
 
 .partnership-section {
     padding-top: 80px;
-    background-color: royalblue;
+
 }
 
 
@@ -220,32 +228,100 @@ header {
 .table-card {
     width: calc(100% / 3 - 30px);
     min-height: 100px;
-    background-color: rosybrown;
     border: 1px solid gray;
     flex-wrap: wrap;
+}
+
+.table-card p {
+    padding: 10px;
+}
+
+
+.table-card h3 {
+    padding-top: 10px;
 }
 
 .bottom-card {
     width: 100%;
     min-height: 100px;
-    background-color: rebeccapurple;
-    border: 1px dashed black;
+    border: 1px solid gray;
 }
 
 
 .table-header {
     padding: 20px 20px;
     text-align: center;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .table-body {
-    padding: 10px 10px;
+    padding: 10px;
     margin-left: 30px;
+    position: relative;
+}
+
+
+.iconic-list {
+    padding-top: 40px;
+}
+
+.fa-li {
+    text-indent: -10px;
+}
+
+
+.business-btn {
+    background-color: rgb(1, 96, 255);
+    border: 1px solid transparent;
+    color: white;
+    padding: 10px 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.lefted-btn {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.solutions-padded {
+    padding-top: 50px;
+}
+
+.small-separator {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60px;
+    border: 1px solid gray;
+}
+
+.check-ico {
+    color: blue;
+}
+
+
+/* Partnership section */
+
+.section-image img {
+    max-width: 90%;
+    display: block;
+}
+
+.partner-text {
+    margin-top: 80px;
+}
+
+
+.partner-text p {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /* Plan Section */
-
+.fa-ul li {
+    padding: 10px
+}
 
 .plan-section {
     background-color: darksalmon;
@@ -261,6 +337,7 @@ header {
     background-color: navajowhite;
     border: 1px dashed black;
 }
+
 
 /* section footer section */
 
