@@ -445,7 +445,20 @@ header {
 
 .company-adv {
     padding-top: 80px;
-    background-color: khaki;
+    background-color: rgb(179, 208, 231);
+    min-height: 300px;
+}
+
+
+.section-image h2 {
+    font-size: 50px;
+    color: rgb(100, 17, 47);
+}
+
+
+.aside-text .off-btn {
+    margin-left: 100px;
+    background-color: white;
 }
 
 /* Faq Section */
