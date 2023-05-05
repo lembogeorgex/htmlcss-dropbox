@@ -328,7 +328,6 @@ header {
     flex-wrap: wrap;
     padding-top: 80px;
     gap: 20px;
-    justify-content: center;
 }
 
 .card {
@@ -337,7 +336,6 @@ header {
     background-color: navajowhite;
     border: 1px dashed black;
 }
-
 
 /* section footer section */
 
