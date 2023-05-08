@@ -475,33 +475,30 @@ header {
     border: 1px solid gray;
 }
 
-
-
-.symbl {
-    padding-left: 200px;
+.hidden-symbl {
+    display: none;
 }
 
-.symbl:hover {
-    cursor: pointer;
+.answer {
+    display: none;
 }
 
-.symbl::before {
-    content: "\2304";
-    font-size: 35px;
-    ;
+.visible-symbl:hover {
+    display: none;
 }
 
-
-.symbl:hover::before {
-    content: "\2303";
-    font-size: 35px;
-
+.visible-symbl:hover .question {
+    display: none;
 }
 
-.symbl:hover::after {
-    content: "Lorem Ipsum dolor sit amet, consectetur adipisicing elit";
-    font-weight: lighter;
+.visible-symbl:hover .answer {
+    display: block;
 }
+
+.visible-symbl:hover .hidden-symbl {
+    display: block;
+}
+
 
 /* Main Footer */
 .main-footer {
