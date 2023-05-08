@@ -81,6 +81,23 @@ h2 {
     margin-bottom: 15px;
 }
 
+
+.off-btn,
+.small-btn:active {
+    box-shadow: 0px 0px 5px gray;
+}
+
+.active-btn,
+.business-btn:active {
+    box-shadow: 0px 0px 5px blue
+}
+
+.off-btn,
+.small-btn,
+.active-btn {
+    cursor: pointer;
+}
+
 /* Section Settings */
 
 .aside-text {
@@ -95,14 +112,12 @@ h2 {
 .split-div {
     width: calc(100% / 5);
     height: 300px;
-    border: 1px dashed black;
 
 }
 
 .largest-div {
     width: 100%;
     min-height: 300px;
-    border: 1px dashed black;
     gap: 20px;
     position: relative;
 
@@ -197,9 +212,8 @@ header {
 .table-content {
     padding-top: 20px;
     padding-bottom: 20px;
-    gap: 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .billing {
@@ -249,17 +263,19 @@ header {
     width: 100%;
     min-height: 100px;
     border: 1px solid gray;
+    margin-top: 50px;
 }
 
 
 .table-header {
-    padding: 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     border-bottom: 1px solid gray;
 }
 
 .table-body {
-    padding: 10px;
+    padding-top: 10px;
     margin-left: 30px;
     position: relative;
 }
@@ -267,12 +283,13 @@ header {
 
 .iconic-list {
     padding-top: 40px;
+
 }
 
-.fa-li {
-    text-indent: -10px;
+.align {
+    min-height: 300px;
+    padding: 20px;
 }
-
 
 .business-btn {
     background-color: rgb(1, 96, 255);
@@ -380,15 +397,16 @@ header {
     width: calc(100% / 2);
     min-height: 300px;
     background-color: darkcyan;
-    border: 1px dashed black;
     align-items: center;
     justify-content: center;
+    border: 30px solid transparent;
 
 }
 
 .small-content img {
     max-width: 50%;
     filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(10deg) brightness(109%) contrast(109%);
+
 }
 
 .large-content img {
@@ -398,7 +416,6 @@ header {
 .large-content {
     width: 100%;
     height: 100%;
-    border: 1px dashed black;
     background-color: rgb(245, 245, 245);
     padding: 50px 50px;
 }
@@ -441,6 +458,12 @@ header {
     background-color: rgb(255, 215, 47);
 }
 
+
+.small-content:hover {
+    cursor: pointer;
+    border: 30px solid rgba(255, 255, 255, 0.5);
+}
+
 /* Company Adv Section */
 
 .company-adv {
@@ -471,34 +494,40 @@ header {
 .xl-separator {
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 100px;
-    border: 1px solid gray;
+    width: 100%;
+    border: 1px solid lightgray;
 }
 
-.hidden-symbl {
-    display: none;
-}
-
+.arrow-up,
 .answer {
     display: none;
+    cursor: pointer;
 }
 
-.visible-symbl:hover {
+.arrow-up,
+.arrow-down {
+    padding-left: 200px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.question-wrapper:hover .arrow-down {
     display: none;
 }
 
-.visible-symbl:hover .question {
-    display: none;
+
+.question-wrapper:hover .arrow-up {
+    display: inline;
 }
 
-.visible-symbl:hover .answer {
+.question-wrapper:hover .answer {
     display: block;
 }
 
-.visible-symbl:hover .hidden-symbl {
-    display: block;
-}
 
+.question {
+    font-weight: bolder;
+}
 
 /* Main Footer */
 .main-footer {
