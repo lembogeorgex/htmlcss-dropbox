@@ -43,6 +43,10 @@ h2 {
     font-size: 2rem;
 }
 
+li {
+    cursor: pointer;
+}
+
 /* Utilities */
 
 .container {
@@ -82,12 +86,20 @@ h2 {
 }
 
 
-.off-btn,
-.small-btn:active {
-    box-shadow: 0px 0px 5px gray;
+
+.off-btn:active {
+    box-shadow: 0px 0px 10px gray;
 }
 
-.active-btn,
+.small-btn:active {
+    box-shadow: 0px 0px 5px gray;
+
+}
+
+.active-btn:active {
+    box-shadow: 0px 0px 5px blue
+}
+
 .business-btn:active {
     box-shadow: 0px 0px 5px blue
 }
@@ -161,6 +173,10 @@ header {
 }
 
 
+.left-nav img {
+    cursor: pointer;
+}
+
 .left-nav,
 .right-nav {
     padding: 10px;
@@ -230,6 +246,8 @@ header {
     border: 1px solid black;
     vertical-align: middle;
     margin-right: 5px;
+    cursor: pointer;
+
 }
 
 .thick-ring {
@@ -240,6 +258,7 @@ header {
     border: 5px solid blue;
     vertical-align: middle;
     margin-right: 5px;
+    cursor: pointer;
 
 }
 
@@ -418,9 +437,12 @@ header {
     height: 100%;
     background-color: rgb(245, 245, 245);
     padding: 50px 50px;
+    border: 50px solid transparent;
 }
 
-
+.large-content:hover {
+    border: 50px solid rgb(255, 255, 255)
+}
 
 .designit {
     background-color: rgb(162, 211, 155);
@@ -555,4 +577,8 @@ header {
 
 .language-selector {
     color: gray;
+}
+
+.fa-caret-up {
+    cursor: pointer;
 }
