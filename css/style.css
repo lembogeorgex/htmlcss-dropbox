@@ -280,9 +280,10 @@ header {
 
 .bottom-card {
     width: 100%;
-    min-height: 100px;
+    min-height: 250px;
     border: 1px solid gray;
     margin-top: 50px;
+
 }
 
 
